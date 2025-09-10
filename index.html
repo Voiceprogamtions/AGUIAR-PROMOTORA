@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>AGUIAR PROMOTORA</title>
-    <meta name="description" content="Empresa especializada em crédito consignado em Brejo-Maranhão. Confira nossos contatos e siga no Instagram!">
+    <meta name="description" content="Empresa especializada em crédito consignado, refinanciamento e portabilidade em Brejo-Maranhão. Confira nossos contatos e siga no Instagram!">
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -19,7 +19,7 @@
         }
         main {
             padding: 30px;
-            max-width: 600px;
+            max-width: 700px;
             margin: 30px auto;
             background: #fff;
             border-radius: 8px;
@@ -52,18 +52,99 @@
             border-radius: 8px;
             box-shadow: 0 2px 8px rgba(0,0,0,0.10);
         }
+        .servicos, .depoimentos, .diferenciais, .faq {
+            margin-top: 40px;
+        }
+        .servicos ul, .diferenciais ul, .faq ul {
+            max-width: 600px;
+            margin: 20px auto;
+            font-size: 1.1em;
+        }
+        .faq li {
+            margin-bottom: 10px;
+        }
+        .depoimentos blockquote {
+            background: #f0f8ff;
+            border-left: 4px solid #005baa;
+            margin: 20px auto;
+            max-width: 600px;
+            padding: 15px;
+        }
+        footer {
+            background: #005baa;
+            color: #fff;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 40px;
+        }
     </style>
 </head>
 <body>
     <header>
         <h1>AGUIAR PROMOTORA</h1>
-        <p>Especialista em soluções financeiras</p>
+        <p>Venha com a gente e conquiste seus objetivos financeiros!</p>
     </header>
     <main>
         <h2>Bem-vindo!</h2>
         <p>
-            Somos a AGUIAR PROMOTORA, referência em crédito consignado, empréstimos e soluções financeiras personalizadas.
+            Somos a AGUIAR PROMOTORA, referência em crédito consignado, refinanciamento, portabilidade, empréstimos e soluções financeiras personalizadas.
         </p>
+
+        <!-- Seção de Serviços -->
+        <section class="servicos">
+            <h3 style="text-align:center; color:#005baa;">Nossos Serviços</h3>
+            <ul>
+                <li>✔ Crédito consignado para aposentados e pensionistas</li>
+                <li>✔ Empréstimos pessoais</li>
+                <li>✔ Consultoria financeira</li>
+                <li>✔ Simulação de crédito sem compromisso</li>
+                <li>✔ <strong>Refinanciamento</strong> de contratos</li>
+                <li>✔ <strong>Portabilidade</strong> de crédito</li>
+                <li>✔ Antecipação de FGTS e INSS</li>
+            </ul>
+        </section>
+
+        <!-- Seção de Diferenciais -->
+        <section class="diferenciais">
+            <h3 style="text-align:center; color:#005baa;">Por que escolher a AGUIAR PROMOTORA?</h3>
+            <ul>
+                <li>✔ Atendimento rápido e personalizado</li>
+                <li>✔ Transparência em todas as etapas</li>
+                <li>✔ Equipe especializada</li>
+                <li>✔ Melhores taxas do mercado</li>
+                <li>✔ Suporte via WhatsApp e presencial</li>
+            </ul>
+        </section>
+
+        <!-- Seção de Depoimentos -->
+        <section class="depoimentos">
+            <h3 style="text-align:center; color:#005baa;">Depoimentos de Clientes</h3>
+            <blockquote>
+                "Fui muito bem atendida e consegui meu crédito rápido."<br>
+                <span style="font-size:0.9em; color:#555;">— Maria Silva</span>
+            </blockquote>
+            <blockquote>
+                "Equipe atenciosa e transparente. Voltarei sempre que precisar."<br>
+                <span style="font-size:0.9em; color:#555;">— João Oliveira</span>
+            </blockquote>
+        </section>
+
+        <!-- Seção de Perguntas Frequentes -->
+        <section class="faq">
+            <h3 style="text-align:center; color:#005baa;">Perguntas Frequentes</h3>
+            <ul>
+                <li><strong>Como faço para solicitar um crédito?</strong><br>
+                    Basta entrar em contato pelos nossos números de WhatsApp ou visitar nossa loja em Brejo-Maranhão.
+                </li>
+                <li><strong>O que é portabilidade?</strong><br>
+                    É a transferência do seu contrato de crédito para outra instituição, buscando melhores condições.
+                </li>
+                <li><strong>Posso simular meu crédito sem compromisso?</strong><br>
+                    Sim! Faça uma simulação gratuita conosco.
+                </li>
+            </ul>
+        </section>
+
         <div class="contato">
             <p>Fale conosco pelo WhatsApp:</p>
             <ul style="list-style:none; padding:0; text-align:center;">
@@ -95,5 +176,35 @@
         <h3 style="text-align:center; margin-top:30px;">AGUIAR PROMOTORA - Venha com a gente!</h3>
         <img class="imagem-local" src="imagem-local.jpg" alt="AGUIAR PROMOTORA - Venha com a gente!">
     </main>
+
+    <!-- Rodapé -->
+    <footer>
+        &copy; 2025 AGUIAR PROMOTORA | Todos os direitos reservados.<br>
+        Brejo-Maranhão - MA
+    </footer>
 </body>
 </html>
+<section style="margin-top:40px; text-align:center;">
+    <h3 style="color:#005baa;">Simule seu crédito consignado agora!</h3>
+    <input type="number" id="valorConsignado" placeholder="Digite o valor desejado" style="padding:8px; width:220px; border-radius:5px; border:1px solid #ccc;">
+    <button onclick="simularConsignado()" style="padding:8px 18px; background:#25d366; color:#fff; border:none; border-radius:5px; font-weight:bold; cursor:pointer;">Simular</button>
+    <div id="resultadoConsignado" style="margin-top:15px; font-size:1.1em; color:#005baa;"></div>
+</section>
+<script>
+function simularConsignado() {
+    var valor = document.getElementById('valorConsignado').value;
+    if(valor && valor > 0){
+        var taxa = 0.0185; // Exemplo de taxa de 1,85% ao mês
+        var parcelas = 96; // 96 parcelas
+        // Fórmula de parcela fixa: P = V * [i * (1 + i)^n] / [(1 + i)^n - 1]
+        var i = taxa;
+        var n = parcelas;
+        var parcela = (valor * (i * Math.pow(1 + i, n))) / (Math.pow(1 + i, n) - 1);
+        document.getElementById('resultadoConsignado').innerHTML =
+            "Para o valor solicitado de <strong>R$ " + Number(valor).toFixed(2) + "</strong>, o valor estimado da parcela será de <strong>R$ " + parcela.toFixed(2) + "</strong>.<br>Consulte condições especiais!";
+    } else {
+        document.getElementById('resultadoConsignado').innerHTML =
+            "<span style='color:red;'>Digite um valor válido para simular.</span>";
+    }
+}
+</script>
